@@ -46,7 +46,6 @@ h4 {
   margin-bottom: 0;
 }
 
-/* Style links */
 a:link {
   color: #5F9EA0 ; /* #005c3e Emerald green for links */
   text-decoration: none;
@@ -65,7 +64,6 @@ b{
   color: #005c3e;
 }
 
-/* Set the style for lists */
 ul {
   padding: 1vw;
   margin: 0;
@@ -106,7 +104,6 @@ li{
   margin-left: 1vw;
 }*/
 
-/* Apply minimalistic styles to paragraphs */
 p {
   margin-bottom: 10px;
   font-size: 13px;
@@ -116,7 +113,6 @@ p {
   margin-top: 0.2vw;
 }
 
-/* Apply minimalistic styles to containers */
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -131,6 +127,7 @@ p {
   display: flex;
   justify-content: space-around;
 }
+
 .navbar .lang{
   width: 100%;
   display: flex;
@@ -232,24 +229,6 @@ p {
 #bar{
   color : #FFFFFF;
   font-size: 20px;
-}
-
-#flag1{
-  right: -1.2vw;
-  top: 1.25vw;
-  position: absolute;
-}
-
-#flag2{
-  right: -1.2vw;
-  top: 3vw;
-  position: absolute;
-}
-
-#flag3{
-  right: -1.2vw;
-  top: 5vw;
-  position: absolute;
 }
 
 #l_fr{

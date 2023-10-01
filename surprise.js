@@ -1,4 +1,4 @@
- console.log("hellooo");
+
  $(window).on('load', function () {
     const trucs = document.getElementsByClassName("surp");
     const val = Math.floor(Math.random()*4)+1;
