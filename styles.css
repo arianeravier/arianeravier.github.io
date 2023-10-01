@@ -1,0 +1,295 @@
+/*Set the main theme color to emerald green*/
+body {
+  background-color: #f2fff0;
+  color: #222; 
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+/* Apply minimalistic styles to headings */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  /*padding: 0;*/
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 60px;
+  color: #005c3e; /* Emerald green for headings */
+  text-align: center;
+  font-family: Garamond, Tahoma, Verdana, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  color: #005c3e;
+  font-size: 35px;
+  font-family: Garamond, Tahoma, Verdana, sans-serif;
+  padding-bottom: 12px;
+  padding-top: 14px;
+}
+
+h3 {
+  color: #005c3e;
+  /*font-family: monospace;*/
+  /*font-style: italic;*/
+  font-size: 23px;
+  /*padding-bottom: 15px;*/
+}
+
+h4 {
+  color: #005c3e;
+  font-size: 16px;
+  font-style: italic;
+  padding-top: 0.4vw;
+  margin-bottom: 0;
+}
+
+/* Style links */
+a:link {
+  color: #5F9EA0 ; /* #005c3e Emerald green for links */
+  text-decoration: none;
+}
+
+a:visited{
+  /*color: #FF1493;*/
+  color: #FF69B4;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+b{
+  color: #005c3e;
+}
+
+/* Set the style for lists */
+ul {
+  padding: 1vw;
+  margin: 0;
+  margin-left: 1vw;
+  list-style: none;
+}
+
+li{
+  padding-bottom: 0.5vw;
+  padding-top: 0;
+}
+
+.surp1:before{
+  content: '\1F419';
+  margin-left: -2vw; 
+  margin-right: 10px;
+}
+
+.surp2:before{
+  content: '\1F996';
+  margin-left: -2vw;  
+  margin-right: 10px;
+}
+
+.surp3:before{
+  content: '\1F34B';
+  margin-left: -2vw; 
+  margin-right: 10px;
+}
+
+.surp4:before{
+  content: '\1F344';
+  margin-left: -2vw; 
+  margin-right: 10px;
+}
+
+/*li{
+  margin-left: 1vw;
+}*/
+
+/* Apply minimalistic styles to paragraphs */
+p {
+  margin-bottom: 10px;
+  font-size: 13px;
+  /*padding: 0;*/
+  line-height: 1.5;
+  text-align: justify;
+  margin-top: 0.2vw;
+}
+
+/* Apply minimalistic styles to containers */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  background-color: #006400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.navbar .lang{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-link {
+  color: #FFFFFF;
+  opacity: 0.8;
+  text-decoration: none;
+  margin-right: 2vw;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.splitmain {
+  display: grid;
+  /*height: 100vw;*/
+  /*max-height: 1000px;*/
+  /*width: 50vw;*/
+  /*max-width: 1000px;*/
+  position: absolute;
+  z-index: 1;
+  top: 8;
+  overflow-x: hidden;
+  padding-top: 20px;
+  grid-gap: 2vw;
+  grid-template-columns: auto 50% auto;
+}
+
+/*.split {
+  display: grid;
+  /*height: 12vw;*/
+  /*max-height: 1000px;*/
+  /*width: 50vw;
+  max-width: 1200px;
+  /*position: absolute;
+  z-index: 1;
+  top: 8;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  padding-top: 0.5vw;
+  grid-gap: 2vw;
+  grid-template-columns: 30% 32% 8% 20% 10%;
+  grid-template-rows: auto auto auto auto;
+  /*padding-bottom: 1vw;*/
+/*}*/
+
+.sleftmain{
+  grid-column: 1;
+  margin-left: 1vw ;
+  /*left: 3vw;
+  min-width: 50px;*/
+}
+
+/*.sleft{
+  grid-column: 1;
+  /*margin-top: 3vw;*/
+/*}*/
+
+.smidmain{
+  margin-top: 6vw;
+  grid-column:  2;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  /*top: 13vw;
+  left: 25vw;*/
+}
+
+/*.smid{
+  grid-column: 2;
+  margin-left: 1vw;
+  /*margin-top: 3vw;*/
+/*}*/
+
+.srightmain{
+  margin-top: 6vw;
+  grid-column: 3 ;
+  margin-left: 1vw;
+  /*top: 13vw;
+  left: 80vw;*/
+}
+
+/*.sright{
+  grid-column: 3 / span 4;
+  overflow-wrap: break-word;
+  max-width: 35vw;
+  margin-left: 1vw;
+  /*margin-top: 3vw;*/
+/*}*/
+
+.small{
+  line-height: 1; 
+  margin-bottom: 0.2vw;
+}
+
+#bar{
+  color : #FFFFFF;
+  font-size: 20px;
+}
+
+#flag1{
+  right: -1.2vw;
+  top: 1.25vw;
+  position: absolute;
+}
+
+#flag2{
+  right: -1.2vw;
+  top: 3vw;
+  position: absolute;
+}
+
+#flag3{
+  right: -1.2vw;
+  top: 5vw;
+  position: absolute;
+}
+
+#l_fr{
+  right: -1.2vw;
+  top: 0.4vw;
+  position: absolute;
+}
+#l_en{
+  right: -1.2vw;
+  top: 2.4vw;
+  position: absolute;
+}
+#l_it{
+  right: -1.2vw;
+  top: 4.4vw;
+  position: absolute;
+}
+#l_sv{
+  right: -1.2vw;
+  top: 6.4vw;
+  position: absolute;
+}
+
+/*#txt{
+  padding-bottom: 11px;
+}*/
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.grid-container2{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid-item{
+  text-align: left;
+  /*max-width: 35vw;*/
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
