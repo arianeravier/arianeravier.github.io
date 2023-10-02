@@ -10,20 +10,17 @@ $(window).on('load',function(){
 	if (sprak==null){
 		sprak = 'fr';
 	}
-	const hide = document.querySelectorAll(`div.lang:not(#${sprak})`);
-	for (var i=0; i<hide.length; i++){
-		hide[i].style.display = 'none';
-	}
-	/*const show = document.getElementById(`${sprak}`);
+	const show = document.querySelectorAll(`div.${sprak}`);
 	console.log(show);
-	for (var i=0; i<show.length; i++){
-		show[i].style.display = 'block';
+	for (var i=0 ; i<show.length ; i++){
+		show[i].style.display = 'inline';
 	}
-	console.log(show);*/
-	/*const hide = document.querySelectorAll(`div.lang:not(#${sprak})`);
-	for (var i=0; i<hide.length; i++){
-		hide[i].style.display = 'none';
-	}*/
+	const navbar_els = document.querySelectorAll(`div.navbar-item.${sprak}`);
+	for(let i=0 ; i<navbar_els.length ; i++){
+		navbar_els[i].style.display = 'flex';
+		navbar_els[i].style.justifyContent = 'space-around';
+	}
+
 	var flag = document.getElementById(`l_${sprak}`).getElementsByTagName("img")[0];
 	flag.style.border="2px solid green";
 });

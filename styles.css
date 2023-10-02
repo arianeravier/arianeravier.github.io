@@ -124,13 +124,13 @@ p {
   background-color: #006400;
   padding-top: 10px;
   padding-bottom: 10px;
-  display: flex;
+  /*display: flex;*/
   justify-content: space-around;
 }
 
 .navbar .lang{
   width: 100%;
-  display: flex;
+  /*display: flex;*/
   justify-content: space-around;
 }
 
@@ -271,4 +271,8 @@ p {
   /*max-width: 35vw;*/
   margin-left: 1em;
   margin-right: 1em;
+}
+
+.lang{
+  display: none;
 }
