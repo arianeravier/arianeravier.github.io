@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Ariane Ravier</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-</head>
-<body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Ariane Ravier</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	</head>
 	<body>
 		<h1>ARIANE RAVIER</h1>
 		<a id="l_fr" href="#" class="navbar-link" onclick="setLanguage('fr')"><img src="img/drap_fr.jpg" width="30px"/></a>
@@ -16,33 +15,33 @@
 		<a id="l_it" href="#" class="navbar-link" onclick="setLanguage('it')"><img src="img/band_it.png" width="30px"/></a>
 		<nav class="navbar">
 			<div class="navbar-item lang fr">
-				<a id="bar" style="text-decoration-line: underline; font-style: italic;">Présentation</a>
-				<a id="bar" href="edu.html" target="_top">CV</a>
-				<a id="bar" href="class.html" target="_top">Enseignement</a>
-				<a id="bar" href="work.html" target="_top">Publications</a>
+				<a class="bar" style="text-decoration-line: underline; font-style: italic;">Présentation</a>
+				<a class="bar" href="edu.html" target="_top">CV</a>
+				<a class="bar" href="class.html" target="_top">Enseignement</a>
+				<a class="bar" href="work.html" target="_top">Publications</a>
 			</div>
 			<div class="navbar-item lang en">
-				<a id="bar" style="text-decoration-line: underline; font-style: italic;">Home</a>
-				<a id="bar" href="edu.html" target="_top">Resume</a>
-				<a id="bar" href="class.html" target="_top">Teaching</a>
-				<a id="bar" href="work.html" target="_top">Publications</a>
+				<a class="bar" style="text-decoration-line: underline; font-style: italic;">Home</a>
+				<a class="bar" href="edu.html" target="_top">Resume</a>
+				<a class="bar" href="class.html" target="_top">Teaching</a>
+				<a class="bar" href="work.html" target="_top">Publications</a>
 			</div>
 			<div class="navbar-item lang it">
-				<a id="bar" style="text-decoration-line: underline; font-style: italic;">Presentazione</a>
-				<a id="bar" href="edu.html" target="_top">CV</a>
-				<a id="bar" href="class.html" target="_top">Insegnamenti</a>
-				<a id="bar" href="work.html" target="_top">Pubblicazioni</a>
+				<a class="bar" style="text-decoration-line: underline; font-style: italic;">Presentazione</a>
+				<a class="bar" href="edu.html" target="_top">CV</a>
+				<a class="bar" href="class.html" target="_top">Insegnamenti</a>
+				<a class="bar" href="work.html" target="_top">Pubblicazioni</a>
 			</div>
 			<div class="navbar-item lang sv">
-				<a id="bar" style="text-decoration-line: underline; font-style: italic;">Presentation</a>
-				<a id="bar" href="edu.html" target="_top">CV</a>
-				<a id="bar" href="class.html" target="_top">Undervisning</a>
-				<a id="bar" href="work.html" target="_top">Publikationer</a>
+				<a class="bar" style="text-decoration-line: underline; font-style: italic;">Presentation</a>
+				<a class="bar" href="edu.html" target="_top">CV</a>
+				<a class="bar" href="class.html" target="_top">Undervisning</a>
+				<a class="bar" href="work.html" target="_top">Publikationer</a>
 			</div>
 		</nav>
 		<div class="splitmain">
 			<div class="sleftmain">		
-				<img src="img/AR.jpg" alt="Ariane + spegel + blommor" width="300" style="padding-bottom: 1vw;max-width: 100%;" />
+				<img id="picme" src="img/AR.jpg" alt="Ariane + spegel + blommor" />
 			</div>
 			<div class="smidmain">
 				<!-- <h3>Présentation</h3> -->
@@ -110,15 +109,14 @@
 				</div>
 				<div class="lang sv">
 					<h4>Hitta mig på nättet:</h4>
-				</div>
+					</div>
 				<p>
 					<a href="https://github.com/arianerh" target="_blank"><img src="img/github.png" height="10px"/> Github</a><br/>
 					<a href="https://hal.science/search/index/?q=ariane-ravier" target="_blank"><img src="img/hal.png" height="10px"/> HAL<br/>
 					<a href="https://dblp.org/pid/331/3915.html" target="_blank"> DBLP</a>
 				</p>
 			</div>
-		</div>
+			</div>
 	</body>
-</body>
-<script type="text/javascript" src="./sprak.js"></script>
+	<script type="text/javascript" src="./sprak.js"></script>
 </html>
