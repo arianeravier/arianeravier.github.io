@@ -100,6 +100,12 @@ td {
   font-size: 1vw;
 }
 
+li{
+  line-height: 1; 
+  margin-bottom: 1vw; 
+  font-size: 1vw;
+}
+
 .center{
   text-align: center;
 }
